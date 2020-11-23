@@ -9,8 +9,8 @@ class UserSeeder extends Seeder{
     public function run(){
         $users = array(
             array(
-                'username' => 'royanali123@gmail.com',
-                'name' => 'royanali123@gmail.com',
+                'username' => 'graedmicko@gmail.com',
+                'name' => 'graedmicko@gmail.com',
             ),
         );
         
@@ -28,7 +28,7 @@ class UserSeeder extends Seeder{
             }
            
         }
-        $u = User::where('username', 'royanali123@gmail.com')->first();
+        $u = User::where('username', 'graedmicko@gmail.com')->first();
         $u->assignRole('admin');
         // 
     }
